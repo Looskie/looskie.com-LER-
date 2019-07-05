@@ -1,0 +1,222 @@
+       h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {}
+        a,
+        a:hover,
+        a:focus,
+        a:active {
+            text-decoration: none;
+            outline: none;
+            color: #99AAB5;
+        }
+        
+        a,
+        a:active,
+        a:focus {
+            color: #333;
+            text-decoration: none;
+            transition-timing-function: ease-in-out;
+            -ms-transition-timing-function: ease-in-out;
+            -moz-transition-timing-function: ease-in-out;
+            -webkit-transition-timing-function: ease-in-out;
+            -o-transition-timing-function: ease-in-out;
+            transition-duration: .2s;
+            -ms-transition-duration: .2s;
+            -moz-transition-duration: .2s;
+            -webkit-transition-duration: .2s;
+            -o-transition-duration: .2s;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        img {
+    max-width: 100%;
+    height: auto;
+}
+        section {
+            padding: 60px 0;
+           /* min-height: 100vh;*/
+        }
+
+
+.bttn {
+      position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 40px;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.bttn i {
+    margin-right: 5px;
+}
+
+.btn-fill{
+    background: #7289DA;
+    border: 1px solid transparent;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.btn-fill:hover{
+   background: #fff;
+   color: #7289DA;
+   border: 1px solid #7289DA;
+}
+
+.btn-emt{
+    background: transparent;
+    color: #7289DA;
+   border: 1px solid #E5E5E5;
+}
+
+.btn-emt:hover{
+    color: #fff;
+    box-shadow: none;
+  background: #7289DA;
+   border: 1px solid transparent;
+}
+
+
+
+.btn-wht{
+    background: #99AAB5;
+    color: #7289DA;
+}
+
+.btn-wht:hover{
+  background: transparent;
+    color:#fff !important;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 2px 0px rgba(255,255,255,1);
+box-shadow: 0px 0px 2px 0px rgba(255,255,255,1);
+}
+
+.section-title {
+    margin-bottom: 30px;
+}
+
+
+.section-title h2 {
+    font-size: 40px;
+    line-height: 45px;
+    position: relative;
+    margin-bottom: 20px;
+  color: #333333;
+  text-transform: capitalize;
+}
+
+
+.pricing-area {
+  
+}
+
+.pricing-tab-btns {
+    border-bottom: 0;
+    margin-bottom: 40px;
+}
+.pricing-tab-btns li {
+    margin: 0 10px;
+}
+.pricing-tab-btns li:last-child {
+
+}
+.pricing-tab-btns li a {
+    color: #777777;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #E5E5E5;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 4px;
+}
+
+.pricing-tab-btns li a.active {
+   background: #7289DA;
+    color: #fff;
+    border: 1px solid #7289DA;
+}
+
+.tab-pane {
+  color:#2C2F33
+}
+.pricing-grid {
+    padding: 45px 30px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 8px 32px 8px rgba(206, 208, 209, 0.3);
+    position: relative;
+    color:#2C2F33
+}
+
+
+
+.pricing-grid:before {
+    position: absolute;
+    content: "";
+    height: 160px;
+    width: 100%;
+    background: url(https://looskie.com/LERAssets/Information/img/price.png) no-repeat;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 6px 6px 0 0;
+    background-size: 100% 100%;
+}
+
+
+  
+.pricing-grid h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.pricing-grid h3 {
+    font-size: 24px;
+    color: #99AAB5;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 12px 70px;
+    background: #fff;
+    box-shadow: 0px 10px 32px 8px rgba(0, 0, 0, 0.05);
+}
+
+.pricing-grid ul {
+    margin-bottom: 40px;
+}
+.pricing-grid ul li {
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+
+@media (max-width:991px){
+  .pricing-grid {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width:767px){
+  .pricing-tab-btns li a {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width:407px){
+  .pricing-tab-btns li {
+    width: 80%;
+    margin: auto;
+  }
+}
